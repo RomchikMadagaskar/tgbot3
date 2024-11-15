@@ -12,7 +12,7 @@ public class Income {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-//    @Column(name = "ID")
+
     private Long id;
 
     @Column(name = "CHAT_ID")
